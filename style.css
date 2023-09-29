@@ -23,18 +23,22 @@ p {
 
 .text-white {
   color: white;
-}
+  }
 
 nav,
 #credits {
   background-color: black;
   height: 60px;
-  /* Your code goes here */
+ 
 }
-
 .container {
   width: 500px;
-  /* Your code goes here */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 60px;
+  margin-left: 450px;
+  
 }
 
 .button {
